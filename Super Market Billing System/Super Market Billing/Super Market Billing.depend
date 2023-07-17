@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1613554273 source:d:\c,c++,c#\super market billing system\super market billing\main.cpp
+	"header.h"
+	"menu.h"
+
+1613460733 d:\c,c++,c#\super market billing system\super market billing\header.h
+	<iostream>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	<cstring>
+
+1613298696 d:\c,c++,c#\super market billing system\super market billing\product.h
+	"header.h"
+
+1613298239 source:d:\c,c++,c#\super market billing system\super market billing\product.cpp
+	"header.h"
+	"Product.h"
+
+1613561237 source:d:\c,c++,c#\super market billing system\super market billing\fstream.cpp
+	"header.h"
+	"fstream.h"
+	"Product.h"
+
+1613561342 d:\c,c++,c#\super market billing system\super market billing\fstream.h
+	"header.h"
+
+1613561342 source:d:\c,c++,c#\super market billing system\super market billing\menu.cpp
+	"header.h"
+	"fstream.h"
+	"menu.h"
+
+1613557135 d:\c,c++,c#\super market billing system\super market billing\menu.h
+	"header.h"
+

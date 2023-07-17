@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Library Management System" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Library Management System" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="Book.h" />
+		<Unit filename="Student.h" />
+		<Unit filename="admin.h" />
+		<Unit filename="book.cpp" />
+		<Unit filename="bstream.cpp" />
+		<Unit filename="fstream.h" />
+		<Unit filename="header.h" />
+		<Unit filename="intro.h" />
+		<Unit filename="issue_deposit_book.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sfstream.cpp" />
+		<Unit filename="student.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

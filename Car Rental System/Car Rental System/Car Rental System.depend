@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1615900940 source:d:\c,c++,c#\car rental system\car rental system\main.cpp
+	"header.h"
+	"Pass.h"
+	"menu.h"
+	"Car.h"
+
+1614318448 d:\c,c++,c#\car rental system\car rental system\header.h
+	<iostream>
+	<conio.h>
+	<cstdlib>
+	<windows.h>
+	<Windows.h>
+	<stdio.h>
+	<fstream>
+
+1615293209 d:\c,c++,c#\car rental system\car rental system\menu.h
+
+1615386630 source:d:\c,c++,c#\car rental system\car rental system\menu.cpp
+	"menu.h"
+	"header.h"
+	"Pass.h"
+	"Car.h"
+
+1615214480 d:\c,c++,c#\car rental system\car rental system\pass.h
+	"header.h"
+
+1615297495 source:d:\c,c++,c#\car rental system\car rental system\pass.cpp
+	"header.h"
+	"Pass.h"
+	"menu.h"
+
+1615900729 d:\c,c++,c#\car rental system\car rental system\car.h
+
+1615904859 source:d:\c,c++,c#\car rental system\car rental system\car.cpp
+	"header.h"
+	"Car.h"
+

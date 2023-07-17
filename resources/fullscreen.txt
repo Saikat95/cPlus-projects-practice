@@ -1,0 +1,21 @@
+SetForegroundWindow(GetConsoleWindow()); 
+
+				HANDLE hOut;
+				CONSOLE_SCREEN_BUFFER_INFO SBInfo;
+				SMALL_RECT DisplayArea = {0, 0, 0, 0};
+
+				hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+
+				GetConsoleScreenBufferInfo(hOut,
+					&SBInfo);
+
+				int x = SBInfo.srWindow.Right;
+				int y = SBInfo.srWindow.Bottom;
+
+				mouse_event(MOUSEEVENTF_LEFTDOWN, x, y, 0, NULL);
+				keybd_event(VK_MENU, 0x38,  0, 0);
+				keybd_event(VK_RETURN, 0x1c,0,0);
+				keybd_event(VK_RETURN,0x1c,KEYEVENTF_KEYUP,0);
+				keybd_event(VK_MENU,0x38,KEYEVENTF_KEYUP,0);
+
+Basicly just got the coords of the bottom right, set the window in forground, and moved the mouse pos to the botom right of the console and forced a click... then forced an alt+enter

@@ -1,0 +1,5 @@
+KA-23-45:Tesla:300x:4:Red:100:80:45
+KA-45-67:TATA:Nexon:6:White:50:40:30
+KA-568:honda:suva:6:white:50:40:56
+KA-34:TATA:Nano:2:Green:20:5:Retro
+KA-678:TATA:Volvo:5:violet:56:45:GTX
